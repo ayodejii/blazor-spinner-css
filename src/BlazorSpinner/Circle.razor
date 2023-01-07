@@ -1,11 +1,9 @@
 ﻿
-<div class="lds-circle" style=@GetStyle()></div>
+<div class="lds-circle" style=@($"width:{Size}px; height: {Size}px; background-color: {Color}")></div>
 
 @code {
 
-    string GetStyle() => $"width:{Size}px; height: {Size}px; background-color: {Color}";
-
-    [Parameter] public byte Size { get; set; } = 60;
+    [Parameter] public int Size { get; set; } = 60;
 
     [Parameter] public string Color { get; set; } = "#7f58af";
 }
