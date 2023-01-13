@@ -5,7 +5,7 @@ VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorSpinner", "src\BlazorSpinner\BlazorSpinner.csproj", "{2343F3A2-1A19-4F1C-A9A6-14CEE479F977}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorAppTest", "test\BlazorAppTest\BlazorAppTest.csproj", "{8A3C83A2-F216-4249-89AD-B05F5B893C73}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorAppTest", "test\BlazorAppTest\BlazorAppTest.csproj", "{8A3C83A2-F216-4249-89AD-B05F5B893C73}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
