@@ -1,0 +1,16 @@
+﻿<div class="lds-ellipsis" style=@($"width: {Size}px; height: {Size}px;")>
+
+    @for (int i = 0; i < 4; i++)
+    {
+        <div style="@($"width: {Size * 0.075}px; height: {Size * 0.075}px; background-color: {Color}")" />
+    }
+
+</div>
+
+@code {
+
+    [Parameter] public int Size { get; set; } = 60;
+
+    [Parameter] public string Color { get; set; } = "#7f58af";
+
+}
