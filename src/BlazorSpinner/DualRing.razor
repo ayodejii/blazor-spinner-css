@@ -1,0 +1,10 @@
+﻿<div class="lds-dual-ring" style=@($"width: {Size}px; height: {Size}px;")>
+    <div class="lds-dual-ring-after" style="@(
+         $"width: {Size * 0.7 - 6}px; height: {Size * 0.7 - 6}px; border-color: {Color} transparent; border-width: {Size * 0.1}px;")"></div>
+</div>
+
+@code {
+    [Parameter] public int Size { get; set; } = 60;
+
+    [Parameter] public string Color { get; set; } = "#7f58af";
+}
