@@ -1,0 +1,18 @@
+﻿
+<div class="lds-heart" style=@($"width: {Size}px; height: {Size}px;")>
+    <div 
+        style="@($"width: {Size * 0.4}px; height: {Size * 0.4}px; left: {Size * 0.3}px; top: {Size * 0.3}px; background: {Color};")">
+        <div class="div-before" 
+             style="@($"width: {Size * 0.4}px; height: {Size * 0.4}px; left: {-Size * 0.3}px; background: {Color};")">
+        </div>
+        <div class="div-after"
+             style="@($"width: {Size * 0.4}px; height: {Size * 0.4}px; top: {-Size * 0.3}px; background: {Color};")">
+        </div>
+    </div>
+</div>
+
+@code {
+    [Parameter] public int Size { get; set; } = 60;
+
+    [Parameter] public string Color { get; set; } = "#7f58af";
+}
