@@ -1,0 +1,11 @@
+﻿<div class="lds-hourglass">
+    <div class="lds-hourglass-after"
+         style="@($"border-width: {Size}px; background: {Color};")">
+    </div>
+</div>
+
+@code {
+    [Parameter] public int Size { get; set; } = 32;
+
+    [Parameter] public string Color { get; set; } = "#7f58af";
+}
