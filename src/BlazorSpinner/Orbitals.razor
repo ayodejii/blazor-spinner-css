@@ -1,0 +1,34 @@
+﻿<div class="lds-orbitals">
+    <div class="center" style="@($"background:{Color}")"></div>
+    <div class="inner-spin">
+        <div class="inner-arc inner-arc_start-a"
+             style="@($"border-color: {Color}")"></div>
+        <div class="inner-arc inner-arc_end-a"
+             style="@($"border-color: {Color}")"></div>
+        <div class="inner-arc inner-arc_start-b"
+             style="@($"border-color: {Color}")"></div>
+        <div class="inner-arc inner-arc_end-b"
+             style="@($"border-color: {Color}")"></div>
+        <div class="inner-moon-a" style="@($"background: {Color}")"></div>
+        <div class="inner-moon-b" style="@($"background: {Color}")"></div>
+    </div>
+    <div class="outer-spin">
+        <div class="outer-arc outer-arc_start-a"
+             style="@($"border-color: {Color}")"></div>
+        <div class="outer-arc outer-arc_end-a"
+             style="@($"border-color: {Color}")"></div>
+        <div class="outer-arc outer-arc_start-b"
+             style="@($"border-color: {Color}")"></div>
+        <div class="outer-arc outer-arc_end-b"
+             style="@($"border-color: {Color}")"></div>
+        <div class="outer-moon-a" style="@($"background: {Color}")"></div>
+        <div class="outer-moon-b" style="@($"background: {Color}")"></div>
+    </div>
+</div>
+
+@code {
+
+    [Parameter] public int Size { get; set; } = 60;
+
+    [Parameter] public string Color { get; set; } = "#7f58af";
+}
