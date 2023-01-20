@@ -1,0 +1,12 @@
+﻿<div class="lds-ripple" style="@($"width: {Size}px; height: {Size}px;")">
+    @for (int i = 0; i < 3; i++)
+    {
+        <div style="@($"border-width:{Size * 0.05}px; border-color: {Color}")" />
+    }
+</div>
+
+@code {
+    [Parameter] public int Size { get; set; } = 60;
+
+    [Parameter] public string Color { get; set; } = "#7f58af";
+}
