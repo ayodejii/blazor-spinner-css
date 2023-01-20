@@ -1,0 +1,12 @@
+﻿<div class="lds-ring" style="@($"width: {Size}px; height: {Size}px;")">
+    @for (int i = 0; i < 4; i++)
+    {
+        <div style="@($"width: {Size * 0.8}px; height: {Size * 0.8}px; margin: {Size * 0.1}px; border-width:{Size * 0.1}px; border-color: {Color} transparent transparent transparent")" />
+    }
+</div>
+
+@code {
+    [Parameter] public int Size { get; set; } = 60;
+
+    [Parameter] public string Color { get; set; } = "#7f58af";
+}
