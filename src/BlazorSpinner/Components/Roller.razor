@@ -1,0 +1,14 @@
+﻿<div class="lds-roller">
+    @for (int i = 0; i < 8; i++)
+    {
+        <div>
+            <div class="div-after" style="@($"background: {Color}")" />
+        </div>
+    }
+</div>
+
+@code {
+
+    [Parameter] public string Color { get; set; } = "#7f58af";
+
+}
