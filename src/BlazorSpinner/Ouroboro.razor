@@ -1,0 +1,13 @@
+﻿<div class="lds-ouroboro">
+    <span class="left">
+        <span class="anim" style="@($"background: {Color}")"></span>
+    </span>
+    <span class="right">
+        <span class="anim" style="@($"background: {Color}")"></span>
+    </span>
+</div>
+
+@code {
+
+    [Parameter] public string Color { get; set; } = "#7f58af";
+}
