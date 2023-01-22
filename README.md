@@ -9,7 +9,7 @@ If you want to add your own spinner, please follow the [contributing guidelines]
 - 💅No extra CSS imports
 - ✂️Zero dependencies
 
-## 🚀 List of Spinners - PropTypes and Default Props
+## 🚀 List of Spinners - Paramters and their types
 
 Each component accepts a `Color` parameter, and few accepts also `Size` parameter.  
 The default `Color` parameter is `#7f58af`.  
