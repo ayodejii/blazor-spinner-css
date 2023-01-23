@@ -3,7 +3,7 @@
 ![spinners](https://user-images.githubusercontent.com/43586181/213844675-7c7371b3-a773-40d8-b379-bb5f2fbb49d5.gif)
 
 Amazing collection of Blazor spinners components with pure css.  
-The Blazor spinners are based on loading.io and from all over the web.  
+The Blazor spinners are based on [loading.io](loading.io) and from all over the web.  
 If you want to add your own spinner, please follow the [contributing guidelines](CONTRIBUTING.md).
 
 - 💅No extra CSS imports
