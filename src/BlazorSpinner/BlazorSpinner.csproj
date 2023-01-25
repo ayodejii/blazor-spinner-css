@@ -4,7 +4,37 @@
     <TargetFramework>net7.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>Blazor Spinner CSS</Title>
+    <Description>Amazing collection of Blazor Server and Web Assembly spinners components with pure css.</Description>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageIcon>Blazor.png</PackageIcon>
+    <RepositoryUrl>https://github.com/ayodejii/blazor-spinner-css</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>blazor; css; loading; loader; spinner;</PackageTags>
+    <PackageId>blazor-css-spinner</PackageId>
+    <Company>isaac ayodeji</Company>
+    <Authors>isaac ayodeji</Authors>
+    <AssemblyVersion>1.0.1</AssemblyVersion>
+    <FileVersion>1.0.0.0</FileVersion>
+    <Version>1.0.2</Version>
+    <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\LICENSE.txt">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\Blazor.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
 
   <ItemGroup>
