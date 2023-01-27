@@ -2,6 +2,8 @@
 
 ![spinners](https://user-images.githubusercontent.com/43586181/213844675-7c7371b3-a773-40d8-b379-bb5f2fbb49d5.gif)
 
+> This library requires the .NET 7 SDK.
+
 Amazing collection of Blazor spinners components with pure css.  
 The Blazor spinners are based on [loading.io](loading.io) and from all over the web.  
 If you want to add your own spinner, please follow the [contributing guidelines](CONTRIBUTING.md).
@@ -31,3 +33,18 @@ Component that accepts `Size` parameter have a default size in pixel.
 | `<Spinner/>`   | `#7f58af`     | -            |
 | `<Orbitals/>`  | `#7f58af`     | -            | 
 | `<Ouroboro/>`  | `#7f58af`     | -            |
+
+Add the package to your application using
+
+```
+  dotnet add package blazor-css-spinner --version 1.0.2
+``` 
+using dotnet CLI
+
+and
+
+```
+PM> NuGet\Install-Package blazor-css-spinner -Version 1.0.2
+``` 
+
+using Package Manager
