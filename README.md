@@ -41,10 +41,16 @@ Add the package to your application using
 ``` 
 using dotnet CLI
 
-and
+## Usage Examples
 
 ```
-PM> NuGet\Install-Package blazor-css-spinner -Version 1.0.2
-``` 
+<Circle /> @default color is #7f58af@
+<Circle Color="red" />
+<Circle Color="#be97e8" Size=200 /> @size parameter is int in pixel@
+<Heart Color=GetRandomColor() />
 
-using Package Manager
+@code
+{
+    string GetRandomColor() => "red";
+}
+```
