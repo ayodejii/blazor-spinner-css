@@ -1,5 +1,8 @@
 # React Spinners CSS Loaders ([React](https://github.com/JoshK2/react-spinners-css), [Vue](https://github.com/JoshK2/vue-spinners-css), [Angular](https://github.com/JoshK2/ng-spinners))
 
+![Nuget version](https://img.shields.io/nuget/v/blazor-css-spinner)
+![Nuget Downloads](https://img.shields.io/nuget/dt/blazor-css-spinner?color=orange)
+
 ![spinners](https://user-images.githubusercontent.com/43586181/213844675-7c7371b3-a773-40d8-b379-bb5f2fbb49d5.gif)
 
 > This library requires the .NET 7 SDK.
