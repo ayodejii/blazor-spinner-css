@@ -37,7 +37,7 @@ Component that accepts `Size` parameter have a default size in pixel.
 | `<Orbitals/>`  | `#7f58af`     | -            | 
 | `<Ouroboro/>`  | `#7f58af`     | -            |
 
-Add the package to your application using
+Add the package to your application using dotnet cli
 
 ```
   dotnet add package blazor-css-spinner --version 1.0.2
