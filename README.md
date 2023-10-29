@@ -36,6 +36,7 @@ Component that accepts `Size` parameter have a default size in pixel.
 | `<Spinner/>`   | `#7f58af`     | -            |
 | `<Orbitals/>`  | `#7f58af`     | -            | 
 | `<Ouroboro/>`  | `#7f58af`     | -            |
+| `<Ouroboro/>`  | `#7f58af`     | `80`         |
 
 Add the package to your application using dotnet cli
 
