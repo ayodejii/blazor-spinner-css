@@ -1,0 +1,14 @@
+﻿
+<div class="plr-spinner-ball" style="@($"width:{Size}px; height: {Size}px")">
+    <div class="plr-ball">
+        <div style="@($"background: {Color}")">
+        </div>
+    </div>
+</div>
+
+@code {
+
+    [Parameter] public int Size { get; set; } = 80;
+
+    [Parameter] public string Color { get; set; } = "#7f58af";
+}
