@@ -1,0 +1,20 @@
+﻿<div class="plr-spinner-dual-ball" style="@($"size:{PrimaryColor}")">
+    <div class="plr-dual-ball">
+        <div style="@($"background:{PrimaryColor}")">
+        </div>
+        <div style="@($"background:{SecondaryColor}")">
+        </div>
+        <div style="@($"background:{PrimaryColor}")">
+        </div>
+    </div>
+</div>
+
+@code {
+
+    [Parameter] public int Size { get; set; } = 80;
+
+    [Parameter] public string PrimaryColor { get; set; } = "#7F58AF";
+
+    [Parameter] public string SecondaryColor { get; set; } = "#FC94AF";
+
+}
