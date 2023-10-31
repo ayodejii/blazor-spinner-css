@@ -1,0 +1,19 @@
+﻿<div class="plr-cube-grid" style="@($"width: {Size}px; height: {Size}px;")">
+    <div class="plr-cube plr-cube1" style="@($"background-color: {Color}")"></div>
+    <div class="plr-cube plr-cube2" style="@($"background-color: {Color}")"></div>
+    <div class="plr-cube plr-cube3" style="@($"background-color: {Color}")"></div>
+    <div class="plr-cube plr-cube4" style="@($"background-color: {Color}")"></div>
+    <div class="plr-cube plr-cube5" style="@($"background-color: {Color}")"></div>
+    <div class="plr-cube plr-cube6" style="@($"background-color: {Color}")"></div>
+    <div class="plr-cube plr-cube7" style="@($"background-color: {Color}")"></div>
+    <div class="plr-cube plr-cube8" style="@($"background-color: {Color}")"></div>
+    <div class="plr-cube plr-cube9" style="@($"background-color: {Color}")"></div>
+</div>
+
+@code {
+
+    [Parameter] public int Size { get; set; } = 80;
+
+    [Parameter] public string Color { get; set; } = "#7f58af";
+
+}

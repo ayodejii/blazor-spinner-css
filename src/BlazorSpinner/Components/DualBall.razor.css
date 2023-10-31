@@ -35,6 +35,7 @@
     display: inline-block;
     overflow: hidden;
     background: #ffffff;
+    position: relative;
 }
 .plr-dual-ball {
     width: 100%;

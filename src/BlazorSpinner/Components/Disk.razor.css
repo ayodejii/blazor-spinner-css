@@ -24,6 +24,7 @@
     display: inline-block;
     overflow: hidden;
     background: #ffffff;
+    position: relative;
 }
 .plr-disk {
     width: 100%;

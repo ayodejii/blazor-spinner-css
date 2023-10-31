@@ -1,0 +1,14 @@
+﻿<div class="plr-pivotball" style="@($"width: {Size}px; height: {Size}px")">
+    <div class="plr-ball" style="@($"color: {PrimaryColor}")"></div>
+    <div class="plr-pivot" style="@($"background: {SecondaryColor}")"></div>
+</div>
+
+@code{
+
+    [Parameter] public int Size { get; set; } = 80;
+    
+    [Parameter] public string PrimaryColor { get; set; } = "#7f58af";
+    
+    [Parameter] public string SecondaryColor { get; set; } = "#FC94AF";
+
+}

@@ -1,0 +1,28 @@
+﻿.plr-pivotball {
+    display: inline-block;
+    animation: rotate 1.5s ease-in infinite alternate;
+    position: relative;
+}
+.plr-ball {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: currentColor;
+    width: 100%;
+    height: 50%;
+    border-radius: 0 0 50px 50px;
+}
+.plr-pivot {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    width: 12.5%;
+    height: 100%;
+    animation: rotate 1.2s linear infinite alternate-reverse;
+}
+
+@keyframes rotate {
+    100% { transform: rotate(360deg)}
+}
