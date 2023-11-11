@@ -3,18 +3,16 @@
     width: 40%;
     height: 40%;
     border-radius: 50%;
-    background: #e15b64;
     left: 30%;
     top: 0.1%;
     animation: plr-ball 1s linear infinite;
 }
 
 .plr-spinner-ball {
-/*    width: 200px;
-    height: 200px;*/
     display: inline-block;
     overflow: hidden;
     background: #ffffff;
+    position: relative
 }
 
 .plr-ball {
@@ -26,9 +24,9 @@
     transform-origin: 0 0; 
 }
 
-    .plr-ball div {
-        box-sizing: content-box;
-    }
+.plr-ball div {
+    box-sizing: content-box;
+}
 
 @keyframes plr-ball {
     0%, 100% {

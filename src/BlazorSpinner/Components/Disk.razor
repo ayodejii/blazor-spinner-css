@@ -1,0 +1,18 @@
+﻿<div class="plr-spinner-disk" style="@($"width:{Size}px; height: {Size}px")">
+    <div class="plr-disk">
+        <div>
+            <div style="@($"background: {PrimaryColor}")"></div>
+            <div style="@($"background: {SecondaryColor}")"></div>
+        </div>
+    </div>
+</div>
+
+@code {
+    
+    [Parameter] public int Size { get; set; } = 80;
+
+    [Parameter] public string PrimaryColor { get; set; } = "#7F58AF";
+
+    [Parameter] public string SecondaryColor { get; set; } = "#FC94AF";
+
+}

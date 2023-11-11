@@ -16,12 +16,12 @@ If you want to add your own spinner, please follow the [contributing guidelines]
 
 ## 🚀 List of Spinners - Parameters and their types
 
-Each component accepts a `Color` parameter, and few accepts also `Size` parameter.  
+The following components accept a `Color` parameter, and few also accept a `Size` parameter.  
 The default `Color` parameter is `#7f58af`.  
-Component that accepts `Size` parameter have a default size in pixel.
+Components that accept `Size` parameter have a default size in pixel.
 
 | Spinner        | Color: string | Size: int    | 
-| -------------- | ------------- | ------------ |
+|----------------| ------------- | ------------ |
 | `<Circle/>`    | `#7f58af`     | `64`         | 
 | `<Default/>`   | `#7f58af`     | `80`         | 
 | `<Ellipsis/>`  | `#7f58af`     | `80`         |
@@ -37,6 +37,17 @@ Component that accepts `Size` parameter have a default size in pixel.
 | `<Orbitals/>`  | `#7f58af`     | -            | 
 | `<Ouroboro/>`  | `#7f58af`     | -            |
 | `<Ball/>`      | `#7f58af`     | `80`         |
+| `<CubeGrid/>`  | `#7f58af`     | `80`         |
+
+The following components accept three parameters, `PrimaryColor`, `SecondaryColor`, and a `Size` parameter.
+The default `PrimaryColor` and `SecondaryColor` parameter values are `#7f58af` and `#88AF58` respectively.
+Components that accept `Size` parameter have a default size in pixel.
+
+| Spinner        | PrimaryColor: string | SecondaryColor: string | Size: int | 
+|----------------|----------------------|------------------------|-----------|
+| `<Disk/>`      | `#7f58af`            | `#FC94AF`              | `80`      | 
+| `<DualBall/>`  | `#7f58af`            | `#FC94AF`              | `80`      |
+| `<PivotBall/>` | `#7f58af`            | `#FC94AF`              | `80`      |
 
 Add the package to your application using dotnet cli
 
