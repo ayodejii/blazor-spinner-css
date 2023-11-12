@@ -3,7 +3,7 @@
 [![Nuget version](https://img.shields.io/nuget/v/blazor-css-spinner)](https://www.nuget.org/packages/blazor-css-spinner)
 [![Nuget Downloads](https://img.shields.io/nuget/dt/blazor-css-spinner?color=orange)](https://www.nuget.org/packages/blazor-css-spinner)
 
-![spinners](https://user-images.githubusercontent.com/43586181/213844675-7c7371b3-a773-40d8-b379-bb5f2fbb49d5.gif)
+![blazor_css_updated](https://github.com/ayodejii/blazor-spinner-css/assets/43586181/9c569226-8ffe-40d1-8684-f9bc2792f465)
 
 > This library requires the .NET 7 SDK.
 
